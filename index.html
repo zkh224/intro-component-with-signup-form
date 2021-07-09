@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <link rel="stylesheet" href="style.css" />
+    
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1>Learn to code by watching others</h1>
+
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+            but understanding how developers think is invaluable.</p>
+        </div>
+        
+        <div class="right-section">
+            <div class="box box-headline">
+                <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+            </div>
+            
+            <form class="box box-form" id="signupform">
+                <div class="formfield">
+                    <input id="fname" type="text" placeholder="First Name" name="firstname" required />
+                    <img src="./images/icon-error.svg" alt="error-icon" id="error1" class="error-icon" />
+                    <small id="fname-invalid"  class="invalid"></small>
+                </div>
+
+                <div class="formfield">
+                    <input id="lname" type="text" placeholder="Last Name" name="lastname" required />
+                    <img src="./images/icon-error.svg" alt="error-icon" id="error2" class="error-icon" />
+                    <small id="lname-invalid" class="invalid"></small>
+
+                </div>
+
+                <div class="formfield">
+                    <input id="email" type="text" placeholder="Email Address" name="email" required />
+                    <img src="./images/icon-error.svg" alt="error-icon" id="error3" class="error-icon" />
+                    <small id="email-invalid" class="invalid"></small>
+
+                </div>
+
+                <div class="formfield">
+                    <input id="pwd" type="password" placeholder="Password" name="password" required />
+                    <img src="./images/icon-error.svg" alt="error-icon" id="error4" class="error-icon" />
+                    <small id="pass-invalid" class="invalid"></small>
+
+                </div>
+
+                <button type="submit" class="btn" id="submitbtn"> Claim your free trial
+                </button>
+                <small class="last">By clicking the button, you are agreeing to our <strong><a href=#>Terms and Services</a></strong></small>
+            </form>
+        </div>
+
+    </div>
+        <script src="./script.js"></script>
+</body>
+    <footer>
+        <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Zahra Khan</a>.
+        </p>
+    </footer>
+</html>
