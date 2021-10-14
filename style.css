@@ -179,6 +179,6 @@ input:focus {
    .formfield img {
     position: relative;
     right: 18em;
-    margin-top:-30px;
+    bottom:30px;
     }
 }
